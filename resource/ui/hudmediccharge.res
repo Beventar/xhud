@@ -1,37 +1,56 @@
 "Resource/UI/HudMedicCharge.res"
 {
+	"UberAnchor"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"UberAnchor"
+		"xpos"		"c150"
+		"ypos"		"c90"
+		"wide"		"2"
+		"tall"		"40"
+		"visible"		"1"
+	}
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"		"c60"
-		"ypos"		"c65"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"100"
-		"tall"		"30"
+		"wide"		"150"
+		"tall"		"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"font"		"Size 42 Shadow"
 		"fgcolor"		"Ammo"
+
+		"pin_to_sibling"	"UberAnchor"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
 
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"		"c60"
-		"ypos"		"c65"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"100"
-		"tall"		"30"
+		"wide"		"150"
+		"tall"		"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"center"
 		"font"		"Size 42 Shadow"
 		"fgcolor"		"Ammo"
+
+		"pin_to_sibling"	"UberAnchor"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
 
 	"ChargeMeter"
