@@ -3200,19 +3200,19 @@
 				"border_armed"		"FriendHighlightBorder"
 			}
 
-			"DmgDealtAmmo"
+			"DmgDealtHealth"
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"DmgDealtAmmo"
+				"fieldName"		"DmgDealtHealth"
 				"font"		"Size 16"
-				"labelText"		"By Ammo"
+				"labelText"		"By Health"
 				"textAlignment"	"center"
 				"xpos"		"198"
 				"ypos"		"271"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine dmgammo"
+				"Command"		"engine dmghealth"
 				"actionsignallevel"		"3"
 				"button_activation_type"	"1"
 
