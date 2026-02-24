@@ -1,16 +1,6 @@
 #base "HudItemEffectMeter.res"
 "Resource/UI/HudRocketPack.res"
 {
-	HudItemEffectMeter
-	{
-		"ypos"		"c93"
-	}
-
-	"ItemEffectMeterLabel"
-	{
-		"labelText"		"#TF_RocketPack_Disabled"
-	}
-
 	"ItemEffectMeter"
 	{
 		"ControlName"	"ContinuousProgressBar"
@@ -19,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
-		"tall"			"2"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
@@ -34,7 +24,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
-		"tall"			"2"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"

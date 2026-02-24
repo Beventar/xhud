@@ -2,13 +2,8 @@
 //Soda popper
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
-		"ypos"		"c99"
-	}
-
-	"ItemEffectMeterLabel"
-	{
-		"labelText"		"#TF_ENERGYDRINK"
+		"ypos"			"c115-5"
 	}
 }

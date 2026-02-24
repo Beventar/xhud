@@ -3,20 +3,28 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c96"
+		"xpos"			"cs-0.5"
+		"ypos"			"c156"
 	}
-	"ItemEffectIcon"
+	"ItemEffectMeterIcon"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"13"
-		"ypos"			"1"
-		"wide"			"13"
-		"tall"			"13"
+		"xpos"			"0"
+		"ypos"			"cs-0.5"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
 		"image"			"../hud/ico_powerup_critboost_red"
 		"scaleImage"	"1"
+	}
+
+	"ItemEffectMeterIconShadow"
+	{
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"ItemEffectMeterLabel"
@@ -29,6 +37,7 @@
 
 	"ItemEffectMeterCount"
 	{
-		"xpos"			"6"
+		"xpos"			"rs1+5"
+		"ypos"			"cs-0.5"
 	}
 }
