@@ -75,24 +75,21 @@ event UberTimerHide
 
 event HudHealthBonusPulse
 {
-	SetVisible HealthBarOverheal 1 0.0
-
-	SetVisible HealthBarLowHealth 0 0.0
-
 	SetVisible HealthSpectatorBarBuff 1 0.0
 
-	Animate HealthBarBG	bgcolor	"Health Bar"	Linear 0.0 0.001
+	Animate			PlayerStatusHealthValue			FgColor		"Buffed Health Bar"					Linear		0.0		0.0
+
+	RunEvent		HudHealthBonusPulseLoop			0.4
 }
 
 event HudHealthBonusPulseStop
 {
-	SetVisible HealthBarOverheal 0 0.0
-
-	SetVisible HealthBarLowHealth 1 0.0
-
 	SetVisible HealthSpectatorBarBuff 0 0.0
 
-	Animate HealthBarBG	bgcolor	"TransparentGrayDarkest"	Linear 0.0 0.001
+	StopEvent		HudHealthBonusPulse				0.0
+	StopEvent		HudHealthBonusPulseLoop			0.0
+
+	Animate			PlayerStatusHealthValue			FgColor		"Health"					Linear		0.0		0.0
 }
 
 //==============================================================================
@@ -100,23 +97,42 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	SetVisible HealthSpectatorBarHurt 1 0.0
+
+	Animate			PlayerStatusHealthValue			FgColor		"Low Health Box"					Linear		0.0		0.0
+
+	RunEvent		HudHealthDyingPulseLoop			0.25
 }
 
 event HudHealthDyingPulseStop
 {
 	SetVisible HealthSpectatorBarHurt 0 0.0
+
+	StopEvent		HudHealthDyingPulse				0.0
+	StopEvent		HudHealthDyingPulseLoop			0.0
+
+	Animate			PlayerStatusHealthValue			FgColor		"Health"					Linear		0.0		0.0
 }
 
 //==============================================================================
 
 event HudLowAmmoPulse
 {
-	SetVisible LowAmmoBox	1 0.0
+	Animate			AmmoInClip						FgColor		"Low Ammo Box"					Linear		0.0		0.0
+	Animate			AmmoInReserve					FgColor		"Low Ammo Box"					Linear		0.0		0.0
+	Animate			AmmoNoClip						FgColor		"Low Ammo Box"					Linear		0.0		0.0
+
+	RunEvent		HudLowAmmoPulseLoop				0.25
 }
 
 event HudLowAmmoPulseStop
 {
-	SetVisible LowAmmoBox	0 0.0
+	StopEvent		HudLowAmmoPulse					0.0
+	StopEvent		HudLowAmmoPulseLoop				0.0
+
+	Animate			AmmoInClip						FgColor		"Ammo"					Linear		0.0		0.0
+	Animate			AmmoInReserve					FgColor		"Ammo"					Linear		0.0		0.0
+	Animate			AmmoNoClip						FgColor		"Ammo"					Linear		0.0		0.0
+}
 }
 
 //==============================================================================
