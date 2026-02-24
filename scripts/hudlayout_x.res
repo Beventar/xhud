@@ -270,9 +270,9 @@
 	DisguiseStatus
 	{
 		"xpos"		"0"
-		"ypos"		"rs1"
+		"ypos"		"0"
 		"wide"		"f0"
-		"tall"		"175"
+		"tall"		"f0"
 	}
 
 	CMainTargetID

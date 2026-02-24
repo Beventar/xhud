@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"8"
+		"xpos"			"0"
+		"ypos"			"-25"
 		"zpos"			"-1"
 		"wide"			"60"
 		"tall"			"2"
@@ -17,15 +17,19 @@
 		"teambg_2"		"replay/thumbnails/panels/red"
 		"teambg_3"		"replay/thumbnails/panels/blue"
 		"alpha"		"180"
+
+		"pin_to_sibling"		"DisguiseNameLabel"
+		"pin_to_sibling_corner"		"4"
+		"pin_corner_to_sibling"		"6"
 	}
 
 	"Disguising"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Disguising"
-		"font"			"Size 10"
-		"xpos"			"0"
-		"ypos"			"-2"
+		"font"			"Size 12"
+		"xpos"			"cs-0.5"
+		"ypos"			"c90"
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"10"
@@ -34,17 +38,13 @@
 		"labelText"		"Disguising..."
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
-
-		"pin_to_sibling"		"DisguiseStatusBG"
-		"pin_to_sibling_corner"		"4"
-		"pin_corner_to_sibling"		"6"
 	}
 
 	"DisguisingShadow"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DisguisingShadow"
-		"font"			"Size 10"
+		"font"			"Size 12"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -64,8 +64,8 @@
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"Size 12"
-		"xpos"			"0"
-		"ypos"			"-2"
+		"xpos"			"cs-0.5"
+		"ypos"			"r100"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
@@ -75,10 +75,6 @@
 		"labelText_minmode"	"Disguised"
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
-
-		"pin_to_sibling"		"DisguiseStatusBG"
-		"pin_to_sibling_corner"		"6"
-		"pin_corner_to_sibling"		"4"
 	}
 
 	"DisguiseNameLabelShadow"
@@ -148,8 +144,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"cs-0.5-110"
-		"ypos"			"31"
+		"xpos"			"0"
+		"ypos"			"-20"
 		"wide"			"36"
 		"tall"			"14"
 		"visible"		"0"
@@ -160,5 +156,9 @@
 		"textAlignment"		"center"
 		"HealthDeathWarningColor"	"Low Health"
 		"TextColor"		"GrayDarkest"
+
+		"pin_to_sibling"		"DisguiseStatusBG"
+		"pin_to_sibling_corner"		"4"
+		"pin_corner_to_sibling"		"6"
 	}
 }
