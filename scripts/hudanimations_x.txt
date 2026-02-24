@@ -142,6 +142,10 @@ event HudMedicCharged
 	Animate ChargeMeter	FgColor	"000 255 000 255"	Linear	1	1
 	Animate ChargeMeter	FgColor	"000 000 255 255"	Linear	2	1
 
+	Animate ChargeLabel	FgColor	"255 000 000 255"	Linear	0	1
+	Animate ChargeLabel	FgColor	"000 255 000 255"	Linear	1	1
+	Animate ChargeLabel	FgColor	"000 000 255 255"	Linear	2	1
+
 	Animate ChargeMeter1	FgColor	"255 000 000 255"	Linear	0	1
 	Animate ChargeMeter2	FgColor	"255 000 000 255"	Linear	0	1
 	Animate ChargeMeter3	FgColor	"255 000 000 255"	Linear	0	1
@@ -169,6 +173,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicChargedLoop	0.0
 
 	Animate ChargeMeter	FgColor	"White"	Linear	0.0	0.001
+
+	Animate ChargeLabel	FgColor	"Ammo"	Linear	0.0	0.001
 
 	Animate ChargeMeter1	FgColor	"White"	Linear	0.0	0.001
 	Animate ChargeMeter2	FgColor	"White"	Linear	0.0	0.001
