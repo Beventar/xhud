@@ -56,7 +56,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"		"center"
-		"font"		"Size 42"
+		"font"		"Size 46"
 		"fgcolor"		"Health"
 
 		"pin_to_sibling"		"HealthAnchor"
@@ -76,7 +76,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"		"center"
-		"font"		"Size 42"
+		"font"		"Size 46"
 		"fgcolor"		"Shadow"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"

@@ -196,6 +196,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Size 46"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"46"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 
 		"Size 8 Shadow"
 		{
@@ -258,6 +268,17 @@ Scheme
 			{
 				"name"	"Renogare Soft XHud"
 				"tall"	"42"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Size 46 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"46"
 				"additive"	"0"
 				"antialias"	"1"
 				"dropshadow"	"1"

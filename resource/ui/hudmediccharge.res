@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
-		"font"		"Size 42 Shadow"
+		"font"		"Size 46 Shadow"
 		"fgcolor"		"Ammo"
 
 		"pin_to_sibling"	"UberAnchor"
@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"center"
-		"font"		"Size 42 Shadow"
+		"font"		"Size 46 Shadow"
 		"fgcolor"		"Ammo"
 
 		"pin_to_sibling"	"UberAnchor"
