@@ -161,23 +161,6 @@
 		"pin_to_sibling"		"AmmoNoClip"
 	}
 
-	"LowAmmoBox"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"LowAmmoBox"
-		"ypos"		"-5"
-		"wide"		"80"
-		"tall"		"30"
-		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"		"Low Ammo Box"
-		"alpha"		"150"
-
-		"pin_to_sibling"		"AmmoAnchor"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"4"
-	}
-
 	"HudWeaponLowAmmoImage"		//Needed for animations to work
 	{
 		"ControlName"		"ImagePanel"
