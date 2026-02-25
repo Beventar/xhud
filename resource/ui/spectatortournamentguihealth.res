@@ -36,7 +36,6 @@
 		"pin_to_sibling"	"PlayerStatusHealthValueSpectator"
 	}
 	
-	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"		"ImagePanel"
