@@ -14,7 +14,7 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Icon"
-		"xpos"										"0"
+		"xpos"										"5"
 		"ypos"										"3"
 		"zpos"										"2"
 		"wide"										"18"

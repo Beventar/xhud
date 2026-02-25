@@ -419,6 +419,15 @@
 			"image"	"../hud/objectives_flagpanel_ico_flag_moving"
 		}
 
+		//KILLSTREAK ICON
+		"KillstreakIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"KillstreakIcon"
+			"visible"	"1"
+			"image"	"../../materials/vgui/logos/killstreaks/blackks"
+		}
+
 		//Misc
 		"MenuThumbMissing"
 		{
