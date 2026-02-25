@@ -32,8 +32,8 @@
 			"enabled"						"1"	
 			"HealthBonusPosAdj"				"9"
 			"HealthDeathWarning"			"0.49"
-			"TFFont"						"HudFontSmall"
-			"HealthDeathWarningColor"		"HUDDeathWarning"
+			"TFFont"						"Size 14"
+			"HealthDeathWarningColor"		"Low Health"
 			"TextColor"						"HudOffWhite"
 		}	
 	
@@ -50,6 +50,7 @@
 			"autoResize"					"0"
 			"pinCorner"						"0"
 			"visible"						"1"
+			"visible_minmode"				"0"
 			"enabled"						"1"
 			"labelText"						"%killername%"
 			"textAlignment"					"center"
@@ -68,6 +69,7 @@
 			"autoResize"					"0"
 			"pinCorner"						"0"
 			"visible"						"1"
+			"visible_minmode"				"0"
 			"enabled"						"1"
 			"textAlignment"					"center"	
 			"labeltext"						"%killername%"
@@ -141,6 +143,7 @@
 		"ypos"								"0"
 		"zpos"								"10"
 		"wide"								"190"
+		"wide_minmode"						"0"
 		"tall"								"100"
 		"visible"							"0"
 		"PaintBackground"					"0"
@@ -174,7 +177,7 @@
 		{	
 			"ControlName"					"Label"
 			"fieldName"						"ItemLabel"
-			"font"							"DefaultSmall"
+			"font"							"Size 8"
 			"xpos"							"10"
 			"ypos"							"3"
 			"zpos"							"1"
