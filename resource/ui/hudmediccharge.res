@@ -32,6 +32,27 @@
 		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
 
+	"ChargeLabelTiny"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelTiny"
+		"xpos"		"0"
+		"ypos"		"30"
+		"zpos"		"2"
+		"wide"		"150"
+		"tall"		"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"font"		"Size 12 Shadow"
+		"fgcolor"		"Ammo"
+
+		"pin_to_sibling"	"ChargeMeter"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
+	}
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
