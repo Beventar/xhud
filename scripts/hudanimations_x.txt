@@ -75,42 +75,45 @@ event UberTimerHide
 
 event HudHealthBonusPulse
 {
-	SetVisible HealthSpectatorBarBuff 1 0.0
+	Animate			PlayerStatusHealthValue				FgColor		"Buffed Health Bar"			Linear		0.0		0.0
+	Animate 		PlayerStatusHealthValueTarget		FgColor 	"Buffed Health Bar" 		Linear 		0.0		0.0
+	Animate 		PlayerStatusHealthValueSpectator	FgColor 	"Buffed Health Bar" 		Linear 		0.0		0.0
 
-	Animate			PlayerStatusHealthValue			FgColor		"Buffed Health Bar"					Linear		0.0		0.0
 
-	RunEvent		HudHealthBonusPulseLoop			0.4
+	RunEvent		HudHealthBonusPulseLoop				0.4
 }
 
 event HudHealthBonusPulseStop
 {
-	SetVisible HealthSpectatorBarBuff 0 0.0
+	StopEvent		HudHealthBonusPulse					0.0
+	StopEvent		HudHealthBonusPulseLoop				0.0
 
-	StopEvent		HudHealthBonusPulse				0.0
-	StopEvent		HudHealthBonusPulseLoop			0.0
+	Animate			PlayerStatusHealthValue				FgColor		"Health"					Linear		0.0		0.0
+	Animate 		PlayerStatusHealthValueTarget 		FgColor 	"Health" 					Linear 		0.0 	0.0
+	Animate 		PlayerStatusHealthValueSpectator 	FgColor 	"Health" 					Linear 		0.0 	0.0
 
-	Animate			PlayerStatusHealthValue			FgColor		"Health"					Linear		0.0		0.0
 }
 
 //==============================================================================
 
 event HudHealthDyingPulse
 {
-	SetVisible HealthSpectatorBarHurt 1 0.0
+	Animate			PlayerStatusHealthValue				FgColor		"Low Health Box"			Linear		0.0		0.0
+	Animate 		PlayerStatusHealthValueTarget		FgColor 	"Low Health Box" 			Linear 		0.0		0.0
+	Animate 		PlayerStatusHealthValueSpectator	FgColor 	"Low Health Box" 			Linear 		0.0		0.0
 
-	Animate			PlayerStatusHealthValue			FgColor		"Low Health Box"					Linear		0.0		0.0
 
 	RunEvent		HudHealthDyingPulseLoop			0.25
 }
 
 event HudHealthDyingPulseStop
 {
-	SetVisible HealthSpectatorBarHurt 0 0.0
+	StopEvent		HudHealthDyingPulse					0.0
+	StopEvent		HudHealthDyingPulseLoop				0.0
 
-	StopEvent		HudHealthDyingPulse				0.0
-	StopEvent		HudHealthDyingPulseLoop			0.0
-
-	Animate			PlayerStatusHealthValue			FgColor		"Health"					Linear		0.0		0.0
+	Animate			PlayerStatusHealthValue				FgColor		"Health"					Linear		0.0		0.0
+	Animate 		PlayerStatusHealthValueTarget 		FgColor 	"Health" 					Linear 		0.0 	0.0
+	Animate 		PlayerStatusHealthValueSpectator 	FgColor 	"Health" 					Linear 		0.0 	0.0
 }
 
 //==============================================================================

@@ -72,6 +72,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Size 12 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 		"Size 14"
 		{
 			"1"
@@ -101,6 +111,16 @@ Scheme
 				"additive"	"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
+			}
+		}
+		"Size 18"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 		"Size 18 Uber"
