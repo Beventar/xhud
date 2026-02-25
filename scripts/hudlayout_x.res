@@ -493,7 +493,7 @@
 	"HudMenuEngyBuild"
 	{
 		"xpos"		"5"
-		"ypos"		"240"
+		"ypos"		"255"
 		"wide"		"f5"
 		"tall"		"240"
 	}
@@ -501,7 +501,7 @@
 	"HudMenuEngyDestroy"
 	{
 		"xpos"		"5"
-		"ypos"		"240"
+		"ypos"		"255"
 		"wide"		"f5"
 		"tall"		"240"
 	}
@@ -509,7 +509,7 @@
 	"HudEurekaEffectTeleportMenu"
 	{
 		"xpos"		"5"
-		"ypos"		"240"
+		"ypos"		"255"
 		"wide"		"f5"
 		"tall"		"240"
 	}
@@ -517,7 +517,7 @@
 	"HudMenuSpyDisguise"
 	{
 		"xpos"		"5"
-		"ypos"		"240"
+		"ypos"		"230"
 		"wide"		"f5"
 		"tall"		"240"
 	}
