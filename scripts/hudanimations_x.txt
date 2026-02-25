@@ -83,6 +83,11 @@ event HudHealthBonusPulse
 	RunEvent		HudHealthBonusPulseLoop				0.4
 }
 
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
 event HudHealthBonusPulseStop
 {
 	StopEvent		HudHealthBonusPulse					0.0
@@ -104,6 +109,11 @@ event HudHealthDyingPulse
 
 
 	RunEvent		HudHealthDyingPulseLoop			0.25
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
 }
 
 event HudHealthDyingPulseStop
