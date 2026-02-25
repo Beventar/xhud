@@ -1,110 +1,57 @@
 "Resource/UI/FreezePanelKillerHealth.res"
 {
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthValueFreeze"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"6969"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"replay/thumbnails/panels/blank"
-		"drawcolor"		"0 0 0 0"
-		"scaleImage"	"1"
-		"proportionaltoparent"		"1"
+		"ControlName"				"Label"
+		"fieldName"					"PlayerStatusHealthValueFreeze"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"20"
+		"wide"						"200"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+		"textAlignment"				"center"	
+		"labeltext"					"%Health%"
+		"font"						"Size 28"
+		"fgcolor_override"  		"Health"
 	}
-
-	"HealthSpectatorBarHurt"
+	
+	"PlayerStatusHealthValueFreezeShadow"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthSpectatorBarHurt"
-		"xpos"			"0"
-		"ypos"			"-14"
-		"zpos"			"5"
-		"wide"			"6969"
-		"tall"			"6969"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"		"replay/thumbnails/panels/black"
-		"scaleImage"		"1"
-		"alpha"		"180"
-		"proportionaltoparent"		"1"
-
-		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"6"
-		"pin_to_sibling_corner"		"6"
+		"ControlName"				"Label"
+		"fieldName"					"PlayerStatusHealthValueFreezeShadow"
+		"xpos"						"-1"
+		"ypos"						"-1"
+		"zpos"						"20"
+		"wide"						"200"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+		"textAlignment"				"center"	
+		"labeltext"					"%Health%"
+		"font"						"Size 28"
+		"fgcolor_override"			"Shadow"
+		
+		"pin_to_sibling"			"PlayerStatusHealthValueFreeze"
 	}
-
-	"HealthSpectatorBarBuff"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthSpectatorBarBuff"
-		"xpos"			"0"
-		"ypos"			"-14"
-		"zpos"			"3"
-		"wide"			"6969"
-		"tall"			"6969"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/blue"
-		"scaleImage"	"1"
-		"proportionaltoparent"		"1"
-
-		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"4"
-	}
-
-	"HealthTargetIDBG"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PeachHealthBGSpec"
-		"xpos"		"cs-0.5"
-		"ypos"		"0"
-		"zpos"		"2"
-		"wide"		"6969"
-		"tall"		"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"bgcolor_override"		"White"
-		"alpha"		"150"
-		"proportionaltoparent"		"1"
-	}
-
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"36"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"		"center"
-		"font"			"Size 16"
-		"fgcolor"		"GrayDarkest"
-	}
-
+	
 	"PlayerStatusHealthImage"
 	{
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"		"9999"
-	}
+		"ControlName"				"ImagePanel"
+		"fieldName"					"PlayerStatusHealthImage"
+		"xpos"						"9999"
+	}		
 	"PlayerStatusHealthImageBG"
 	{
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"		"9999"
-	}
+		"ControlName"				"ImagePanel"
+		"fieldName"					"PlayerStatusHealthImageBG"
+		"xpos"						"9999"
+	}	
 	"BuildingStatusHealthImageBG"
 	{
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"		"9999"
+		"ControlName"				"ImagePanel"
+		"fieldName"					"PlayerStatusHealthImageBG"
+		"xpos"						"9999"
 	}
 }

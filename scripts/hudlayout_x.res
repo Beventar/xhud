@@ -574,6 +574,14 @@
 		"tall"		"240"
 	}
 
+	"FreezePanel"
+	{
+		"xpos"		"c-200"
+		"ypos"		"0"
+		"wide"		"f0"
+		"tall"		"480"
+	}
+
 	StatPanel
 	{"xpos"	"9999"	"visible"	"0"}
 	FreezePanelCallout
