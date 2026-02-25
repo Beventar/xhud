@@ -5,7 +5,20 @@
 {
     "HudItemEffectMeter"
 	{
-		"xpos"		"cs-0.5"
+		"xpos"		"cs-0.5+2"
 		"ypos"		"rs1-120"
+		"wide"		"35"
+	}
+
+	"ItemEffectMeterCount"
+	{
+		"wide"		"21"
+		"tall"		"21"
+	}
+
+	"ItemEffectMeterCountShadow"
+	{
+		"wide"		"21"
+		"tall"		"21"
 	}
 }
