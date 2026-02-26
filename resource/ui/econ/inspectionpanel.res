@@ -10,6 +10,14 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"bgcolor_override"	"BlackLight"
+
+		"consume_mode"
+		{
+			"wide"		"0"
+			"tall"		"0"
+			"visible"	"0"
+			"enabled"	"0"
+		}
 	}
 
 	"CloseButton"
@@ -46,6 +54,14 @@
 			
 		"image_drawcolor"	"White"
 		"image_armedcolor"	"MainTheme"
+
+		"consume_mode"
+		{
+			"wide"		"0"
+			"tall"		"0"
+			"visible"	"0"
+			"enabled"	"0"
+		}
 
 		"SubImage"
 		{
@@ -196,6 +212,11 @@
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"0"
 		"align"		"center"
+
+		"consume_mode"
+		{
+			"ypos"		"c-140"
+		}
 
 		"ButtonSettings"
 		{
