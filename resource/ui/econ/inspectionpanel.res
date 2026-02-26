@@ -17,6 +17,16 @@
 		"proportionaltoparent" "1"
 	}
 
+	"BackShortKey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackShortKey"
+		"xpos"			"9999"
+		"labelText"		"&Q"
+		"Command"		"close"
+		"visible"		"1"
+	}
+
 	"ItemName"
 	{
 		"ControlName"	"CItemModelPanel"

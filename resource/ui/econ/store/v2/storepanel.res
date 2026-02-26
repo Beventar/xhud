@@ -85,6 +85,16 @@
 		"depressedFgColor_override"		"MainTheme"
 	}
 
+	"CloseShortKey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseShortKey"
+		"xpos"			"9999"
+		"labelText"		"&E"
+		"Command"		"close"
+		"visible"		"1"
+	}
+
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"	"CheckButton"

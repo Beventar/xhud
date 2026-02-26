@@ -358,4 +358,14 @@
 		"depressedFgColor_override"		"MainTheme"
 		"depressedBgColor_override"		"TransparentBlack"
 	}
+
+	"BackShortKey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackShortKey"
+		"xpos"			"9999"
+		"labelText"		"&Q"
+		"Command"		"close"
+		"visible"		"1"
+	}
 }
