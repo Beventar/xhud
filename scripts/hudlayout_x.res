@@ -245,6 +245,7 @@
 	{
 		"xpos"		"cs-0.5"
 		"ypos"		"-110"
+		"ypos_minmode"		"-110"
 		"wide"		"f0"
 		"tall"		"f0"
 	}
