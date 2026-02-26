@@ -17,6 +17,58 @@
 		"proportionaltoparent" "1"
 	}
 
+	"CloseButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"c134"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"16"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labeltext"		""
+		"font"			"Size 14"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"Command"		"close"
+		"proportionaltoparent" "1"
+		"actionsignallevel" "0"
+			
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "Red"
+		"depressedFgColor_override" "46 43 42 255"
+			
+		"image_drawcolor"	"White"
+		"image_armedcolor"	"MainTheme"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"close_button"
+			"scaleImage"	"1"
+			"proportionaltoparent" "1"
+		}				
+	}
+
 	"BackShortKey"
 	{
 		"ControlName"	"CExButton"
@@ -64,7 +116,7 @@
 	{
 		"fieldName"		"ModelInspectionPanel"
 		"xpos"		"cs-0.5"
-		"ypos"		"0"
+		"ypos"		"10"
 		"zpos"		"5"
 		"wide"		"o1.5"
 		"tall"		"p0.8"
@@ -135,7 +187,7 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"		"TeamNavPanel"
 		"xpos"		"cs-0.5"
-		"ypos"		"p.7-16"
+		"ypos"		"c-150"
 		"zpos"		"100"
 		"wide"		"60"
 		"tall"		"25"
