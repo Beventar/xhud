@@ -117,8 +117,8 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"KillStreakAnchor"
-		"xpos"						"85"
-		"ypos"						"18"
+		"xpos"						"78"
+		"ypos"						"20"
 		"wide"						"8"
 		"tall"						"8"
 		"visible"					"1"
