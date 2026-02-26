@@ -249,6 +249,17 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		"Size 14 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"14"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 		"Size 16 Shadow"
 		{
 			"1"
