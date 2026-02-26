@@ -6,7 +6,7 @@
 		"fieldName"		"FullScreenBG"
 		"xpos"		"cs-0.5"
 		"wide"		"600"
-		"tall"		"350"
+		"tall"		"370"
 		"visible"	"1"
 		"enabled"	"1"
 		"bgcolor_override"	"BlackLight"
