@@ -1,20 +1,15 @@
 "Resource/UI/econ/QuestEditorPanel.res"
 {
-	"BGImage"
+	"FullScreenBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGImage"
+		"ControlName"	"Panel"
+		"fieldName"		"FullScreenBG"
 		"xpos"		"cs-0.5"
-		"ypos"		"0"
-		"zpos"		"1"
-		"wide"		"300"
-		"tall"		"p0.75"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"replay/thumbnails/panels/black"
-		"scaleImage"	"1"
-		"alpha"		"240"
-		"proportionaltoparent" "1"
+		"wide"		"600"
+		"tall"		"350"
+		"visible"	"1"
+		"enabled"	"1"
+		"bgcolor_override"	"BlackLight"
 	}
 
 	"CloseButton"
