@@ -294,7 +294,7 @@
 	CSecondaryTargetID
 	{
 		"xpos"		"cs-0.5"
-		"ypos"		"c102"
+		"ypos"		"c122"
 		"wide"	 	"f0"
 		"tall"	 	"31"
 		"tall_minmode"	"31"
