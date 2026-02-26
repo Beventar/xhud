@@ -78,6 +78,7 @@ event HudHealthBonusPulse
 	Animate			PlayerStatusHealthValue				FgColor		"Buffed Health Bar"			Linear		0.0		0.0
 	Animate 		PlayerStatusHealthValueTarget		FgColor 	"Buffed Health Bar" 		Linear 		0.0		0.0
 	Animate 		PlayerStatusHealthValueSpectator	FgColor 	"Buffed Health Bar" 		Linear 		0.0		0.0
+	Animate 		PlayerStatusHealthValueFreeze		FgColor 	"Buffed Health Bar" 		Linear 		0.0		0.0
 
 
 	RunEvent		HudHealthBonusPulseLoop				0.4
@@ -96,6 +97,7 @@ event HudHealthBonusPulseStop
 	Animate			PlayerStatusHealthValue				FgColor		"Health"					Linear		0.0		0.0
 	Animate 		PlayerStatusHealthValueTarget 		FgColor 	"Health" 					Linear 		0.0 	0.0
 	Animate 		PlayerStatusHealthValueSpectator 	FgColor 	"Health" 					Linear 		0.0 	0.0
+	Animate 		PlayerStatusHealthValueFreeze 		FgColor 	"Health" 					Linear 		0.0 	0.0
 
 }
 
@@ -106,6 +108,7 @@ event HudHealthDyingPulse
 	Animate			PlayerStatusHealthValue				FgColor		"Low Health Box"			Linear		0.0		0.0
 	Animate 		PlayerStatusHealthValueTarget		FgColor 	"Low Health Box" 			Linear 		0.0		0.0
 	Animate 		PlayerStatusHealthValueSpectator	FgColor 	"Low Health Box" 			Linear 		0.0		0.0
+	Animate 		PlayerStatusHealthValueFreeze		FgColor 	"Low Health Box" 			Linear 		0.0		0.0
 
 
 	RunEvent		HudHealthDyingPulseLoop			0.25
@@ -124,6 +127,7 @@ event HudHealthDyingPulseStop
 	Animate			PlayerStatusHealthValue				FgColor		"Health"					Linear		0.0		0.0
 	Animate 		PlayerStatusHealthValueTarget 		FgColor 	"Health" 					Linear 		0.0 	0.0
 	Animate 		PlayerStatusHealthValueSpectator 	FgColor 	"Health" 					Linear 		0.0 	0.0
+	Animate 		PlayerStatusHealthValueFreeze 		FgColor 	"Health" 					Linear 		0.0 	0.0
 }
 
 //==============================================================================
