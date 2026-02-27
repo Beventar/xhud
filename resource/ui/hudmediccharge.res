@@ -93,7 +93,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"VaccPin"
 		"xpos"		"cs-0.5"
-		"ypos"		"c45"
+		"ypos"		"c30"
 		"wide"		"0"
 		"tall"		"2"
 		"visible"		"1"
@@ -173,6 +173,17 @@
 		"pin_to_sibling_corner"		"5"
 	}
 
+	"ResistIconPin"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"ResistIconPin"
+		"xpos"		"cs-0.5"
+		"ypos"		"c47"
+		"wide"		"0"
+		"tall"		"2"
+		"visible"		"1"
+	}
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -188,7 +199,7 @@
 		"scaleImage"	"1"
 		"alpha"		"150"
 
-		"pin_to_sibling"		"VaccPin"
+		"pin_to_sibling"		"ResistIconPin"
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"4"
 	}
