@@ -511,4 +511,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+
+	"BackShortKey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackShortKey"
+		"xpos"			"9999"
+		"labelText"		"&Q"
+		"Command"		"cancel"
+		"visible"		"1"
+	}
 }
