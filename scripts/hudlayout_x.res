@@ -400,8 +400,8 @@
 	{
 		"wide"	"50"
 		"tall"	"30"
-		"xpos"	"c150"
-		"ypos"	"c96"
+		"xpos"	"c186"
+		"ypos"	"c125"
 	}
 
 	HudCloseCaption
