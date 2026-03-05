@@ -37,30 +37,6 @@
 		"brighttext"				"0"
 	}
 	
-	"TargetNameLabelShadow"
-	{
-		"ControlName"				"Label"
-		"fieldName"					"TargetNameLabelShadow"
-		"font"						"Size 14"
-		"xpos"						"-1"
-		"ypos"						"-1"
-		"zpos"						"0"
-		"wide"						"640"
-		"tall"						"13"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"visible_minmode"			"0"
-		"enabled"					"1"
-		"labelText"					"%targetname%"
-		"textAlignment"				"west"
-		"dulltext"					"0"
-		"brighttext"				"0"
-		"fgcolor_override"			"Shadow"
-
-		"pin_to_sibling" 			"TargetNameLabel"
-	}
-	
 	"TargetDataLabel"
 	{
 		"ControlName"				"Label"
